@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c1b0f1-57e0-4bee-aed1-9e6ad14beff7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CallableFutureApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ExecutorServicesApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Semaphores.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ProdConsBlockingQueue.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Concurrency.iws" />
@@ -128,10 +126,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CallableFutureApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CallableFutureApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CallableFutureApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6624685">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -142,16 +140,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SynchronizedBlocks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SynchronizedBlocks.java">
+      <file leaf-file-name="ProdConsBlockingQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProdConsBlockingQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="71" selection-start-line="62" selection-start-column="71" selection-end-line="62" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.6221663">
+              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
               <folding>
-                <element signature="e#1040#1139#0" expanded="true" />
-                <element signature="e#1138#1139#0" expanded="true" />
-                <element signature="e#1174#1273#0" expanded="true" />
-                <element signature="e#1272#1273#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#1204#1205#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#1798#1807#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -205,6 +205,7 @@
         <option value="$PROJECT_DIR$/src/Semaphores.java" />
         <option value="$PROJECT_DIR$/src/ExecutorServicesApp.java" />
         <option value="$PROJECT_DIR$/src/CallableFutureApp.java" />
+        <option value="$PROJECT_DIR$/src/ProdConsBlockingQueue.java" />
       </list>
     </option>
   </component>
@@ -302,6 +303,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ProdConsBlockingQueue.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Concurrency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="CallableFutureApp.java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
@@ -318,22 +337,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CallableFutureApp">
-    <configuration default="false" name="ReEntrantLockUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ReEntrantLockUse" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Concurrency" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ProdConsBlockingQueue">
     <configuration default="false" name="ProdConsReEntrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ProdConsReEntrantLock" />
@@ -382,6 +386,21 @@
     <configuration default="false" name="CallableFutureApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CallableFutureApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Concurrency" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProdConsBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ProdConsBlockingQueue" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -639,19 +658,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ReEntrantLockUse" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ProdConsReEntrantLock" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Semaphores" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ExecutorServicesApp" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CallableFutureApp" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ProdConsReEntrantLock" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Semaphores" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ExecutorServicesApp" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CallableFutureApp" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ProdConsBlockingQueue" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CallableFutureApp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ExecutorServicesApp" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Semaphores" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ProdConsReEntrantLock" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ReEntrantLockUse" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ProdConsBlockingQueue" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CallableFutureApp" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ExecutorServicesApp" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Semaphores" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ProdConsReEntrantLock" />
       </list>
     </recent_temporary>
   </component>
@@ -831,12 +850,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CallableFutureApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6624685">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#496#497#0" expanded="true" />
             <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProdConsBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6221663">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1798#1807#0" expanded="true" />
           </folding>
         </state>
       </provider>
